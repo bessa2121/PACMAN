@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --font-poppins: "Poppins";
+    --color-bg-dark: hsl(233, 36%, 9%);
+    --color-bg: hsl(235, 16%, 13%);
+    --color-bg-light: hsl(235, 10%, 22%);
+    --color-text: hsl(245 100% 100%);
+    --color-text-muted: hsl(246 67% 79%);
+    --color-highlight: hsl(260, 100%, 50%);
+    --color-highlight-hover: hsl(260, 100%, 65%);
+    --color-success: hsl(170, 100%, 35%);
+    --color-success-hover: hsl(170, 100%, 40%);
+    --color-contrast: hsl(40, 100%, 40%);
+    --color-contrast-hover: hsl(40, 100%, 50%);
+    --color-border: hsl(48, 100%, 67%);
+    --color-border-muted: hsl(268 100% 22%);
+    --color-neutral: hsl(235, 10%, 22%);
+    --color-neutral-hover: hsl(240 10% 30%);
+    --color-warning: hsl(7 90% 60%);
+    --color-warning-hover: hsl(7 90% 65%);
+    --middle-position: 50%;
+}
