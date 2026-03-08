@@ -1,2 +1,2 @@
 # PACMAN
-Escape Run - Pac-Man
+Escape Run - Pac-Man - Funcional
